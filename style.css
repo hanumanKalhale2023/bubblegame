@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 245, 227) ;
+}
+#panel{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 250px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(80, 139, 119);
+}
+.elem{
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    color: #fff;
+
+}
+.elem h2{
+    font-weight: 500;
+}
+.box{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(80, 139, 119);
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#pbtm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: rgb(61, 153, 122);
+    color: #fff;
+
+}
+.bubble:hover{
+    background-color: rgb(26, 84, 65);
+    cursor: pointer;
+}
